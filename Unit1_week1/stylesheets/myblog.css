@@ -1,0 +1,17 @@
+body {
+	font-family: helvetica;
+	background: #c0c0c0;
+}
+h1 {
+	text-align: center;
+}
+img {
+	height: 200px;
+	padding: 4px;
+
+	
+}
+.posts {
+	width: 600px
+	
+}
