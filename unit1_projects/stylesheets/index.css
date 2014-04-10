@@ -1,0 +1,55 @@
+body{
+	background: #c0c0c0;
+	font-family: helvetica;
+}
+header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+img {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+h2 {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+
+h3 {
+	color: white;
+	font-variant: 
+}
+.content {
+	vertical-align: central;
+}
+.work {
+	width: 14%;
+	margin:1%;
+	display:block;
+	float: left;
+	min-height: 250px;
+	background-color: black;
+	padding: 1%;
+	border-left: 4px solid green;
+	border-top: 4px solid green;
+	font-size: .85em;
+
+}
+:link{
+	color: white;
+	text-decoration: none;
+}
+:hover {
+	color: green;
+}
+:visited{
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+@media screen and (max-width:) {
+
+}
