@@ -26,12 +26,12 @@ body background {
 	width: 60%;
 	height: 60%;
 	background-color:#ebe5ce;
-	padding: 10px;
+	padding: 30px;
 }
 p {
 	text-align: left;
 }
-img {
+nav img {
 	height: 80%;
 	width: 80%;
 }
