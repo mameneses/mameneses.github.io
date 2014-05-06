@@ -28,8 +28,9 @@ body background {
 	background-color:#ebe5ce;
 	padding: 30px;
 }
-p {
+div p {
 	text-align: left;
+	font-size: 18px
 }
 nav img {
 	height: 80%;
