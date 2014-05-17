@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Matias' Blog</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
+</head>
+<body>
+	<header><center>Matias' Blog</center></header>
+	<nav> <h4>About Me<h4>
+		<img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash2/t1.0-9/378227_10101769780013493_1419766566_n.jpg">
+		<p>
+			I am an aspiring web developer with a thirst for knowledge. I have a great interest in the struggles of humanity, helping people, and finding out how technology and can aid in that advancemnet.
+		</p>
+	 </nav>
+	<center><div class="body">
+		<h2>SQLing like a Villain</h2>
+			<h3>SQL: the Dangers, Pros, and Cons</h3>
+			<h5>5/17/2014</h5>
+			<p>
+			Structured Query Language (SQL) is a programing language that is specifically used for managing data within a database system. SQL is the code used to search through your data, as well as, create, update and change data. The data in the database can be accessed using code known as queries or statements.  It is a great tool for accessing and managing information, but it does come with its vulnerabilities. One issue that SQL faces is SQL Injection. 
+			</p>
+			<p>
+			DANGERS: SQL Injection is a technique used as an attack on data bases that allows the attacker to <q>dump</q>  the information onto their own computers, or affect the database in any other malicious way. They are able to be successful with such attacks by directly accessing and database through the web application that allows users to get information from database. While using the web application features such as login pages, search pages, and shopping carts are all legitimate ways of accessing the information needed to run a business these are also the feature that allow a SQL database to be susceptible to attack. Even firewalls and other traditional defenses do little to prevent such attacks. 
+			</p>
+			<p>
+			SOLUTIONS:   One defense against SQL injection is to use prepared statements, also known as parameterized queries.  This requires the creating a template to define the SQL statements, or commands, that access the data base before they are passed into the parameters, the data, which separates data from the SQL statements or command. This lets the database recognize statements and data separately. Without this protection you could use SQL statements in a user input fields to effectively change the data base. By separating the two it makes it so a hacker cannot input statements into a data field to access the database.  
+			</p>
+			<h4>SQL Databases vs NoSQL  Databases:</h4>
+			<p>
+			SQL databases, normally called relational databases, use a predefined schemas and tables to represent their data in rows.  NoSQL databases, normally called non-relational or distributed databases, have dynamic schema, use a key-value pairs/documents to store data and store data in terms of columns. For complex queries, or complex statements, SQL are better fit to meet those needs as it is a more complex query environment, while NoSQL often do not have as powerful of a query language to handle such requests. NoSQL databases are better for handling hierarchical data storage by using its key-value data storage. If you are looking to access and pass information to and from a database in a large volume, SQL databases are best fit, as they are stable when it comes to a large amount of transactions.  Since SQL has been around for longer, it typically provides built in support from any issues that may arise within your database, while NoSQL may not have direct support and you may need to rely on the community.
+			</p>
+			<h4>SQL Query Optimization:</h4>
+			<p>
+			When working with huge databases, sifting through the information can be time consuming. In order to maximize your time it is helpful to optimize your queries. This is often done automated within a SQL program where they assess the best way of joining tables, how to handle nested SQL queries, or calculate cost estimations. Even without these tools you can use tricks to optimize your queries:
+				<ol>
+					<li>When using SELECT, instead of using an asterisk to select all columns, write out each column name separated by commas. </li>
+					<li>Properly using clauses. For example only us the HAVING clause as a filter and for no other function.</li>
+					<li>Try to minimize redundancies in an subqueries that are being used.</li>
+					<li>Follow the SQL general standard rules: use single case for all SQL verbs and begin each one on a new line.</li>
+				</ol>
+			</p>
+			<p>
+			SQL databases are prevalent and awesome. Wield their power appropriately else you may run into issues. 
+			</p>
+	</div>
+	</center>
+</body>
+</html>
