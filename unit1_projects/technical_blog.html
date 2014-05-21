@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Matias Meneses</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
+</head>
+<body>
+	<header>
+		<div id="title">Matias Meneses</div>
+	<div class="nav_bar"> 
+		<div class="pad">
+			<ul>
+				<li><a href="https://mameneses.github.io/index.html">Home </a></li>
+				<li>|</li>
+				<li><a href="">About Me</a></li>
+				<li>|</li>
+				<li> Blog </li>
+				<li>|</li>
+				<li> Projects </li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<nav> 
+		<h4>Technical Blog Entries<h4>
+			<ul>
+				<li><a href="http://mameneses.github.io/unit3_projects/week7_technical.html" class="wrk">Week 7 - SQL: What you need to know (SQL)</a></li>
+				<li><a href="http://mameneses.github.io/unit2_projects/week6_technical.html" class="wrk">Week 6 - Object Oriented Programing VS Functional Programming (OOP) </a></li>
+				<li><a href="http://mameneses.github.io/unit2_projects/week5_technical.html" class="wrk">Week 5 - Ruby Classes (Ruby)</a></li>
+				<li><a href="http://mameneses.github.io/unit2_projects/week4_technical.html" class="wrk">Week 4 - #group_by (Ruby)</a></li>
+				<li><a href="http://mameneses.github.io/unit1_projects/week3_technical.html" class="wrk"> Week 3 - Why is JavaScript so popular</a></li>
+				<li><a href="http://mameneses.github.io/unit1_projects/week2_technical.html" class="wrk">Week 2 - Margins, Boarders and Padding (HTML/CSS)</a></li>
+			</ul>
+	 </nav>
+	<center>
+		<div class="body shadow">
+			<div class="blog_switch">| Cultural | Technical | </div>
+			<h2>Technical Blog</h2>
+			<h2>SQLing like a Villain</h2>
+			<h3>SQL: the Dangers, Pros, and Cons</h3>
+			<h5>5/17/2014</h5>
+			<p>
+			Structured Query Language (SQL) is a programing language that is specifically used for managing data within a database system. SQL is the code used to search through your data, as well as, create, update and change data. The data in the database can be accessed using code known as queries or statements.  It is a great tool for accessing and managing information, but it does come with its vulnerabilities. One issue that SQL faces is SQL Injection. 
+			</p>
+			<p>
+			DANGERS: SQL Injection is a technique used as an attack on data bases that allows the attacker to <q>dump</q>  the information onto their own computers, or affect the database in any other malicious way. They are able to be successful with such attacks by directly accessing and database through the web application that allows users to get information from database. While using the web application features such as login pages, search pages, and shopping carts are all legitimate ways of accessing the information needed to run a business these are also the feature that allow a SQL database to be susceptible to attack. Even firewalls and other traditional defenses do little to prevent such attacks. 
+			</p>
+			<p>
+			SOLUTIONS:   One defense against SQL injection is to use prepared statements, also known as parameterized queries.  This requires the creating a template to define the SQL statements, or commands, that access the data base before they are passed into the parameters, the data, which separates data from the SQL statements or command. This lets the database recognize statements and data separately. Without this protection you could use SQL statements in a user input fields to effectively change the data base. By separating the two it makes it so a hacker cannot input statements into a data field to access the database.  
+			</p>
+			<h4>SQL Databases vs NoSQL  Databases:</h4>
+			<p>
+			SQL databases, normally called relational databases, use a predefined schemas and tables to represent their data in rows.  NoSQL databases, normally called non-relational or distributed databases, have dynamic schema, use a key-value pairs/documents to store data and store data in terms of columns. For complex queries, or complex statements, SQL are better fit to meet those needs as it is a more complex query environment, while NoSQL often do not have as powerful of a query language to handle such requests. NoSQL databases are better for handling hierarchical data storage by using its key-value data storage. If you are looking to access and pass information to and from a database in a large volume, SQL databases are best fit, as they are stable when it comes to a large amount of transactions.  Since SQL has been around for longer, it typically provides built in support from any issues that may arise within your database, while NoSQL may not have direct support and you may need to rely on the community.
+			</p>
+			<h4>SQL Query Optimization:</h4>
+			<p>
+			When working with huge databases, sifting through the information can be time consuming. In order to maximize your time it is helpful to optimize your queries. This is often done automated within a SQL program where they assess the best way of joining tables, how to handle nested SQL queries, or calculate cost estimations. Even without these tools you can use tricks to optimize your queries:
+				<ol>
+					<li>When using SELECT, instead of using an asterisk to select all columns, write out each column name separated by commas. </li>
+					<li>Properly using clauses. For example only us the HAVING clause as a filter and for no other function.</li>
+					<li>Try to minimize redundancies in an subqueries that are being used.</li>
+					<li>Follow the SQL general standard rules: use single case for all SQL verbs and begin each one on a new line.</li>
+				</ol>
+			</p>
+			<p>
+			SQL databases are prevalent and awesome. Wield their power appropriately else you may run into issues. 
+			</p>
+			<hr>
+			<h4>Object Oriented Programing Vs Functional programing</h4>
+			<h5>5/11/2014</h5>
+			<p>
+			Some argue that Object Oriented Programing and Functional Programing are opposites but like any tools they each have their purposes and better uses. 
+			</p>
+			<p>
+			Here is what you need you need to know about OOP (Object Oriented Programing): It is a type of programing that have close relations between the data used and the operations that affect said data. In OOP the main actions include composes new objects and changes existing objects, or data, by way of methods. OOP, much like its title suggests, is a type of programing that is oriented towards the object it uses and creates by way of methods. A type of data defines a class and establishes how the operations will affect that data.
+			</p>
+			<p>
+			Here is what you need to know about Functional Programing:  It is a style of programing where the data does not hold as close of a relationship with its functions. There is no straight forward definition of Functional Programming but it does have some characteristics. It is typically utilizes high order functions (HOF: takes functions as an input and outputs a function) and having minimized effects. It often uses smaller functions for a specific operation. 
+			</p>
+			<p>
+			With this said, OOP makes it easy to change the way things are put together based on the objects of a program, which makes it ideal for programs that will be changing and evolving frequently, and where the relationship between object is important. Typically big databases use functional programing as it is efficient for treating all data similarly, while the OOP may be used to create access the data in different ways. Essentially they are not always mutually exclusive and can be combined to capitalize on their efficiencies. 
+			</p>
+			<hr>
+			<h4>Ruby Staying Classy</h4>
+			<h5>4/5/2014</h5>
+			<p>
+			Today we are going to focus on Ruby classes, what they are and how they can be used. We are doing this today because ruby classes are awesome and so are you.
+			</p>
+			<p>The class in ruby can essentially be seen as your subject or a layout. The Class is the thing that encompasses what all of the code within the class is about. Within your class you define what characteristics, also known as variables, make up the class and what functions your class. Your class can model real life subjects (vehicles, sports teams, desserts) or anything that you can think up.</p>
+			<p>For example you could have a class for mammals. The characteristics of a mammal could be defined by their name, habitat, diet, and family type. We could use this information to make a function that describes than mammal based on those characteristics. It would look like this:</p>
+			<img src="https://lh5.googleusercontent.com/-ixO1uaUll2c/U2k00jQUQAI/AAAAAAAAAHQ/vubNUoxfNeE/w523-h231-no/week5_tech_class1.png">
+			<p>You can see in the first step above we are initializing the method with the things that we know (name, habitat, diet, and family type.) by making @habitat = habitat we are turning it into an instance variable. As a instance variable we can use it within our functions, also known as methods.</p>
+			<p>Lets say we wanted to describe a squirrel that lived in a forest ate nuts and lives in colonies. We would want to call a new instance of the class mammal and describe the squirrel with the characteristics as show below. </p>
+			<img src="https://lh3.googleusercontent.com/-eE26UbN48B0/U2k00_tG2YI/AAAAAAAAAHU/TqctvS6J6j0/w531-h73-no/week5_tech_class2.png">
+			<p>The <q>squirrel.puts</q> above should return <q>The squirrel is a mammal that lives in a forest, eats nuts, and have a family type of colonies.</q> While it may not always sound perfect this is a simple function that can save you a lot of time. </p>
+			<p>Now if we wanted to get scientific and to do quantifiable research, we could use this information to make predictions on how these mammals may affect certain environments based on the information provided using more in depth methods. The other benefit of classes is we can now use this exact same class blueprint but can make it for amphibians, birds or fish without having to write all new code. </p>
+			<hr>
+			<h3>Enumerable Nation: What it means to be a Groupie</h3>
+			<h5>4/26/2014</h5>
+			<p>
+			Enumerators are a great way to search and sort through collection of data within ruby. Today we are going to focus on the group_by Enumerable and its uses. 
+			</p>
+			<h4>The group_by syntax looks  like this:</h4>
+			<h4>.group_by { |object| block} => a_hash</h4>
+			<p>This basically says that what you call on group_by to sort your information you will decide how you want to group your information using the block of code and it will return a hash (a directory of unique keys and their values.)</p>
+			<p>Why would you need the group_by Enumerable you ask? Well if you are looking to make groups of specific information and narrow down your search this is a huge help. </p>
+			<h4>Everything is better with examples</h4>
+			<img src="https://lh4.googleusercontent.com/-2WSCEIeW4Qo/U1y285kRyFI/AAAAAAAAAGE/uMYzHIJO7_I/w522-h104-no/techblog_week4_math.png">
+			<p>You can see for the number 1 through 6 it grouping them by their divisibility by 3. 3 and 6 are evenly divisable by 3 with zero remainders, 1 and 4 have one remainder, 2 and 5 have 2 remainders.</p>
+			<h4>But what about strings? Great question.</h4>
+			<p>Lets say you are an eagerly waiting parents for your first new born and you have run into the predicament of what to call you child. You have a big list of names what was to narrow it down a bit. Group_by can help you out. Lets say you wanted to choose your babies name based on the length of the name, you want something short and sweet. You can do this:</p>
+			<img src="https://lh3.googleusercontent.com/-QeuTP1M0Nhg/U1y27bwnsXI/AAAAAAAAAF0/wXbm3mU46rk/w528-h167-no/techblog_week4_baby_length.png">
+			<p>Maybe, you are dead set on having good initials, you can group by the first letter of the name like this:</p>
+			<img src="https://lh4.googleusercontent.com/-Tkaev77yezc/U1y27zLtE1I/AAAAAAAAAF8/bFeXBVSXgow/w531-h128-no/techblog_week4_baby_letter.png">
+			<p>While these are very basic and simple examples. With good ruby knowledge you can group by number of occurrences with the array or even by a specific string. </p>
+			<hr>
+			<h4>JavaScript: the cool kid at web development high, but why?</h4>
+			<h6>4/19/2014</h6>
+			<p>
+			We are going to explore why JavaScript is so popular in web development.  This is a topic that books could be written about, but I will do my best sum it up. To understand how anything successful came to be, it is important to understand where they came from. 
+			</p>
+			<h5>A Bit of History</h5>
+			<p>
+			Back in 1995 Brendan Eich had the basic language design, formerly Mocha, for what today is JavaScript.  Eich worked at Netscape and JavaScript was the language for Netscape Navigator. This was when Netscape Navigator was winning the browser wars, before Microsoft eventually won out with Internet Explorer. (Yes, Browser wars, and no this is not an internet reality show on TLC) Its connection to Netscape Navigator helped to establish itself. JavaScript is a language that allows for dynamic development. So, JavaScript was already hanging out with the cool kids from the start, but JS managed to stay popular, even after Netscape Navigator took the plunge into irrelevancy, because of all of its other great attributes and friends.
+			</p>
+			<h5>Its Personality</h5>
+			<p>
+			Since its infancy JavaScript has become standardized across browsers, which means that you can use it to make a web page and your web page will likely work on most, to all, browsers. Basically, It gets along with everyone. Additionally, while being powerful and fast it has become relatively easy to learn. Like anything, it take times and practice, but the amount of information about JS and it syntax on the internet makes it possible to learn with an internet connection, time and dedication. JavaScript is also easy to edit with the help of free text editors, like notepad++ of Sublime text. While this is not unique to JS it does help to add to its popularity.
+			</p>
+			<h5>JavaScripts allies </h5>
+			<p>
+			There are numerous tools that help to make JavaScript easier to use. One great tool is the Web Developer tools that opens in your browser and pulls back the curtain so you can see what is happening back stage. This makes it easier to change code, point out what needs to be fixed, or can be improved (also known as debugging). Libraries, pre- written sets of code, have also helped to keep JavaScript prominent. These libraries, such as jQuery or Pototype, help to solve complex problems by just writing a few lines of code, savings time and making it more JavaScript more friendly overall.  Asynchronous JavaScript and XML (AJAX) came along and allowed for web pages to make small updates without loading the page all over again. AJAX made everything more user friends and user friendly = popular (just ask Apple).  
+			</p>
+			<h5>Too many words up there, give me an over simplified break down</h5>
+			<p>
+			JavaScript is popular for web development because it got a head start by hanging out with the former popular kid; Netscape Navigator. It has great qualities such as being standard across browsers, relatively easy to learn, and easy to edit/adapt. It has gained some great allies such as Web developer Tools, libraries (jQuery), and AJAX. There are many that argue that JavaScript sucks but its hard to argue that it is not popular.
+			</p>
+			<hr>
+			<h4>Margins, Border and Padding</h4>
+			<h5>April 9th, 2014</h5>
+			<p>
+			When buliding your website using HTML and CSS it is important that you don't over crowd your screen and allow for an even spacing between text, the box and the rest of the screen. For this reason it is important to understand Margins, Border and Padding. All three have a top, bottom, left and right.<br><br>
+
+			Margins: this is the section that seperated your "box", also known as a section or div, from the surrounding edge of the browser window. <br><br>
+
+			Border: this is what defines the edges of your "box" and gives your section (or div) a shape. The size is dictated by the "width" and "height" of the box, but the border is what can be styled and seen.<br><br>
+
+			Padding: this is the space inbetween your text and the border. <br><br>
+
+			This image illistrates these there section and their relation. (thanks to avaJava.com)<br><br>
+
+			<center><img src="http://www.avajava.com/tutorials/cascading-style-sheets/how-are-margins-borders-padding-and-content-related/how-are-margins-borders-padding-and-content-related-01.gif"></center>
+			</p>
+			
+	</div>
+	</center>
+</body>
+</html>

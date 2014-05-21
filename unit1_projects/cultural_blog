@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Matias Meneses</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+</head>
+<body>
+	<header>Matias Meneses 
+	<div class="nav_bar">
+		<div>
+			<ul>
+				<li><a href="https://mameneses.github.io/index.html">| Home |</a></li>
+				<li> About Me |</li>
+				<li> Blog |</li>
+				<li> Projects |</li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<center><div class="body shadow">
+		<div class="blog_switch">| Cultural | Technical | </div>
+			<h2>Cultural Blog</h2>
+			<h4>Post title</h4>
+			<h5>Date</h5>
+		<h4> Week 1 Cultural Blog: My Values</h4>
+		<h5>4/5/2014</h5>
+			<p> When I think of times in my life where I have been happiest, proudest, or most satisfied the following values come to mind:
+				<ul>
+					<li>Adventure</li>
+					<li>Commitment</li>
+					<li>Having a family</li>
+					<li>Growth</li>
+					<li>Compassion</li>
+					<li>Helping society </li>
+				</ul>
+			<br>
+			<p> The one value of Helping society is important to me because it is a value that I have been on both ends of giving and receiving help. I have been lucking enough to know kind hearted generous people set to help society and have helped me. Now I gain satisfaction when I feel that I am contributing to that same goal. 
+			</p>
+			<p>
+			In general, I try to live up to these values:
+
+			Disagree 1 ----- 2 ----- 3 ----- 4 ----- 5 Agree
+				<ul>
+					<li>Adventure - 4</li>
+					<li>Commitment - 4</li>
+					<li>Having a family - 3</li>
+					<li>Growth - 4 </li>
+					<li>Compassion - 2</li>
+					<li>Helping society - 4</li>
+				</ul>
+			</p>
+			<p> The last topic that someone asked me advice for was help avoiding foreclosure.</p>
+	</div>
+	</center>
+</body>
+</html>
