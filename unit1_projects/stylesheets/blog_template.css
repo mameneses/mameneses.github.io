@@ -51,8 +51,7 @@ a.nav:link{
 	text-decoration: none;
 }
 a.nav:hover {
-	background-color: gray;
-	color: white;
+	color: gray;
 }
 a.nav:visited{
 	text-decoration: none;
@@ -88,14 +87,7 @@ nav img {
 li {
 	display: inline;
 }
-.nav_bar {
-	font-family: helvetica;
-	color: white;
-	font-size: 20px;
-	text-align: right;
-	padding-right: 50px;
-	padding-bottom: 50px;
-}
+
 a:link,a:visited {
 	color: black;
 	text-decoration: none;
