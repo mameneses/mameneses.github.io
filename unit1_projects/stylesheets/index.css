@@ -9,13 +9,14 @@ header {
 	color: white;
 	font-family: helvetica;
 }
+
 .fixed_link{
 	position: fixed;
-	text-align: right;
-	margin-right: 20px;
-	margin-top:20px;
-	height: 30px;
+	margin-top: -60px;
+	margin-left: 90%;
+	height: 60px;
 }
+
 header li {
 	display: inline;
 	padding: 13px;
