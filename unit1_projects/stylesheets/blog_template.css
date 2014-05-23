@@ -12,6 +12,13 @@ header {
 	font-size: 35px;
 }
 
+.fixed_link{
+	position: fixed;
+	margin-top: -60px;
+	margin-left: 90%;
+	height: 60px;
+}
+
 #title {
 	padding-left: 20px;
 	padding-top: 20px;
