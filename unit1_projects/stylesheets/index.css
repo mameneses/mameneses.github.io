@@ -8,62 +8,50 @@ header {
 	background-color: #26537c;
 	color: white;
 	font-family: helvetica;
-	font-size: 35px;
 }
 header li {
 	display: inline;
-	padding-left: 25px;
-	text-align: right;
+	padding: 13px;
 }
 
 #title {
-	padding-left: 20px;
 	padding-top: 20px;
 	font-size: 40px;
-
 }
 .nav_bar {
 	font-family: helvetica;
 	color: white;
 	font-size: 20px;
-	text-align: right;
-	padding-right: 190px;
-	padding-bottom: 50px;
 }
 
-.pad {
-	padding-right: 1px;
-}
 
-h2 {
-	position: absolute;
-	top: 40px;
-	left: 25px;
-}
+
 
 h3 {
 	color: black;
 }
-
+.content {
+	width:90%;
+	margin:0 auto;
+}
 .work {
 	width: 40%;
 	margin:1%;
 	display:block;
+	min-height: 300px;
+	background-color:#f8f8f8;
 	float: left;
-	min-height: 250px;
-	background-color:#ebe5ce;
 	opacity: .9;
 	padding: 1%;
-	font-size: .85em;
-	font-size: 18px;
+	font-size: 1.05em;
 }
 div img {
 	height: 180px;
 }
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    1px 1px 3px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 3px 4px #ccc;
+  box-shadow:         1px 1px 3px 4px #ccc;
 }
 a.nav:link{
 	color: white;
@@ -88,7 +76,4 @@ a.wrk:hover {
 a.wrk:visited{
 	text-decoration: none;
 	color: black;
-}
-@media screen and (max-width:) {
-
 }
