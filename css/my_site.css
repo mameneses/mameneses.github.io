@@ -1,0 +1,238 @@
+body {
+  font-family: helvetica;
+}
+
+nav {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  z-index: 1;
+  font-family: helvetica;
+  display:inline;
+}
+
+#title {
+  font-size: 25px;
+  position:fixed;
+  top: 20px;
+  left: 20px;
+}
+
+nav ul {
+  position: fixed;
+  top: 23px;
+  right:20px
+}
+
+nav ul li{
+  display: inline;
+  float:right;
+  font-size: 20px;
+  margin-left:10px;
+}
+
+#home-button:hover {
+  color: #ededed;
+  cursor: pointer;
+}
+
+#about-button:hover {
+  color: #ededed;
+  cursor: pointer;
+}
+
+#project-button:hover {
+  color: #ededed;
+  cursor: pointer;
+}
+
+#home {
+  background: url(../img/polyscape4.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+}
+
+#about {
+  background: url(../img/polyscape5.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px;  
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.about-title { 
+  height: 458px; 
+  position: absolute; 
+  top: 20px;
+  left:20px; 
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.about-container {
+  position: absolute;
+  background: rgba(0,0,0,0.4); 
+  width: 80%;
+  padding:20px;
+  margin-top: 110px;
+  margin-left: 10%;
+}
+
+.about-img {
+  display: inline;
+  float: left;
+}
+
+.about-desc {
+  display: inline;
+  color: white;
+  float: left;
+  width: 50%;
+  padding: 20px
+}
+
+.contact-icon {
+  width:40px;
+}
+
+#projects {
+  background: url(../img/polyscape6.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.project-title { 
+  height: 458px; 
+  position: absolute; 
+  top: 20px;
+  left:20px; 
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.ind-project-titile {
+  position: absolute;
+  width:50%;
+  height: 30px;
+  max-width: 740px;
+  background: rgba(0,0,0,0.4);
+  margin-top: 85px;
+  margin-left: 25%; 
+  text-align: center;
+  padding-top: 15px;
+}
+
+.ind-project-titile :link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.ind-project-titile :visited {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.ind-project-titile :hover {
+  color: #ededed;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/*SLIDER CSS BEGIN*/
+
+.container{
+  position: absolute;
+  display: inline;
+  width:50%;
+  max-width: 740px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: 25%;
+  height: 440px;
+  padding: 20px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background: rgba(0,0,0,0.4);  
+}
+.slider_wrapper{
+  overflow: hidden;
+  position:relative;
+  height:480px;
+  top:auto;
+}
+#image_slider{
+  position: relative;
+  height: auto;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+  /*Chrom default padding for ul is 40px */
+  padding:0px;
+  margin:0px;
+  display: inline;
+}
+#image_slider li{
+  position: relative;
+  float: left;
+}
+.nvgt{
+  position:absolute;
+  top: 170px;
+  height: 50px;
+  width: 30px;
+  opacity: 0.6;
+}
+.nvgt:hover{
+  opacity: 0.9;
+}
+#prev{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+  left: 0px;
+}
+#next{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+  right: 0px;
+}
+
+.proj-desc {
+  position: absolute;
+  display: inline;
+  width:50%;
+  max-width: 740px;
+  margin-top: 570px;
+  margin-left: 25%;
+  padding: 20px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background: rgba(0,0,0,0.4); 
+  color: white;
+  font-size:20px;
+  line-height: 120%;
+}
+
+[id="0"] {
+}
+
+[id= "1"] {
+  display:none;
+}
+
+/*END OF SLIDER*/
