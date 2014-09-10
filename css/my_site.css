@@ -48,6 +48,8 @@ nav ul li{
   cursor: pointer;
 }
 
+
+
 #home {
   background: url(../img/polyscape4.jpg) 50% 0 repeat fixed; min-height: 1000px;
   height: 1000px; 
@@ -97,6 +99,14 @@ nav ul li{
   float: left;
   width: 50%;
   padding: 20px
+}
+
+#resume {
+  color: white;
+}
+
+#resume:hover {
+  color: #ededed;
 }
 
 .contact-icon {
