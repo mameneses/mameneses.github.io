@@ -1,5 +1,6 @@
 body {
   font-family: helvetica;
+  color: white;
 }
 
 nav {
@@ -97,7 +98,7 @@ nav ul li{
   display: inline;
   color: white;
   float: left;
-  width: 50%;
+  width: 60%;
   padding: 20px
 }
 
@@ -137,7 +138,7 @@ nav ul li{
 .ind-project-titile {
   position: absolute;
   width:50%;
-  height: 30px;
+  height: 45px;
   max-width: 740px;
   background: rgba(0,0,0,0.4);
   margin-top: 85px;
@@ -251,5 +252,10 @@ nav ul li{
 
 [id= "3"] {
   display:none;
+}
+
+.half {
+  width:50%;
+  display:inline-block;
 }
 /*END OF SLIDER*/

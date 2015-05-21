@@ -3,9 +3,13 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/reset.css"/>
   <link type="text/css" rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" type="text/css" href="css/my_site.css"/>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/my_site.css"/>
   <script src="js/animatescroll.min.js"></script>
   <script src="js/my_site.js"></script>
 </head>
@@ -30,33 +34,138 @@
   <section id="about" data-type="background" data-speed="10">
     <div class="about-title">About Me</div>
     <div class="about-container">
-      <img class="about-img" src="img/matias_headshot_small.jpg">
-      <div class="about-desc">
-        <h4> My name is Matias Andes Meneses. </h4> <br>
-        <p>I am a Chilean America native of Oakland, CA. I love to spend my time helping people and letting my curiosity guide me to new experiences.  </p> <br>
-        <p> After teaching elementary school students in East Oakland, I spent 3 years helping homeowners nationwide avoid foreclosure working for programs, such as, the Homeowners Hope Hotline. Now I am setting my sites on Web Development and using my skills gained at Dev Bootcamp to help a wider audience.  </p> <br>
-        <div>
-          <h4> Check out my <a id="resume" target="_newtab" href="img/Matias_Meneses_Resume.pdf">RESUME</a></h4><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="img-responsive" src="img/matias_headshot_small.jpg">
         </div>
-        <div>
-          <h4>Contact Me:</h4><br>
-          <a href="mailto:matiasameneses@gmail.com"><img class="contact-icon"src="img/email_icon.png"></a>
-          <a target="_newtab" href="https://www.facebook.com/matias.meneses.79" ><img class="contact-icon"src="img/facebook_icon.png"></a>
-          <a target="_newtab" href="https://www.linkedin.com/in/matiasmeneses"><img class="contact-icon" src="img/linkedin_icon.png"></a>
-          <a target="_newtab" href="https://twitter.com/MatiasAMeneses"><img class="contact-icon"src="img/twitter_icon.png"></a>
+
+        <div class="col-sm-4">
+          <h4> My name is Matias Andes Meneses. </h4> <br>
+          <p>I am a Chilean America native of Oakland, CA. I love to spend my time helping people and letting my curiosity guide me to new experiences.  </p> <br>
+          <p> After teaching elementary school students in East Oakland, I spent 3 years helping homeowners nationwide avoid foreclosure working for programs, such as, the Homeowners Hope Hotline. Now I am setting my sites on Web Development and using my skills gained at Dev Bootcamp to help a wider audience.  </p> <br>
+          <div>
+            <h4> Check out my <a id="resume" target="_newtab" href="img/Matias_Meneses_Resume.pdf">RESUME</a></h4><br>
+          </div>
+          <div>
+            <h4>Contact Me:</h4><br>
+            <a href="mailto:matiasameneses@gmail.com"><img class="contact-icon"src="img/email_icon.png"></a>
+            <a target="_newtab" href="https://www.facebook.com/matias.meneses.79" ><img class="contact-icon"src="img/facebook_icon.png"></a>
+            <a target="_newtab" href="https://www.linkedin.com/in/matiasmeneses"><img class="contact-icon" src="img/linkedin_icon.png"></a>
+            <a target="_newtab" href="https://twitter.com/MatiasAMeneses"><img class="contact-icon"src="img/twitter_icon.png"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <h3 class="text-center">Skills</h3>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Languages:</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Ruby</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>FrameWorks:</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+              <li>Rails</li>
+              <li>Sinatra</li>
+              <li>NodeJS/ExpressJS</li>
+              <li>AngularJS</li>
+            </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Databases:</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>SQL(PostgreSQL,
+              SQLite)</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Front End:</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>jQuery</li>
+            </ul>
+            </div>
+            
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-6">
+              <h4> Knowledge</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>MVC design pattern</li>
+                <li>Service Oriented Architecture</li>
+                <li>Test Driven Development</li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Life Skills</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Team player</li>
+                <li>Fluent in Spanish</li>
+                <li>Presentations and public speaking</li>
+                <li>Burrito eating</li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </div>
   </section>
   <section id="projects" data-type="background" data-speed="10">
     <div class="project-title">Projects</div>
-    <h3 class="ind-project-titile" id="0"><a target="_newtab" href="http://hivemind-dbc.herokuapp.com/">HiveMind</h3></a>
-    <h3 class="ind-project-titile" id="1"><a target="_newtab" href="http://go-outside.herokuapp.com/">GoOutSide</h3></a>
-    <h3 class="ind-project-titile" id="2"><a target="_newtab" href="http://babyworld-so.herokuapp.com/">Baby World - Special Orders System</h3></a>
-    <h3 class="ind-project-titile" id="3"><a target="_newtab" href="http://mameneses.github.io/alphabet_game/">Animal Alphabet Game</h3></a>
+      <h3 class="ind-project-titile" id="0">
+        <a target="_newtab" href="http://babyworld-so.herokuapp.com/">Baby World - Special Orders System</a>
+      </h3>
+      <h3 class="ind-project-titile" id="1">
+        <a target="_newtab" href="https://github.com/mameneses/happy_tree">HappyTree</a>
+      </h3>
+      <h3 class="ind-project-titile" id="2">
+        <a target="_newtab" href="http://hivemind-dbc.herokuapp.com/">HiveMind</a>
+      </h3>
+      <h3 class="ind-project-titile" id="3">
+        <a target="_newtab" href="http://go-outside.herokuapp.com/">GoOutSide</a>
+      </h3>
     <div class="container">
       <div class="slider_wrapper">
         <ul id="image_slider">
+          <li>
+            <h6><a target="_newtab" href="http://babyworld-so.herokuapp.com/"></h6>
+            <img src="img/baby_world_so_screanshot.png"></a> 
+          </li>
+          <li>
+            <h6><a target="_newtab" href="http://mameneses.github.io/alphabet_game/"></h6>
+            <img src="img/happytree.png"></a> 
+          </li>
           <li>
             <h6><a target="_newtab" href="http://hivemind-dbc.herokuapp.com/"></h6>
             <img src="img/hivemind.png"></a>
@@ -65,34 +174,35 @@
             <h6><a target="_newtab" href="http://go-outside.herokuapp.com/"></h6>
             <img src="img/gooutside.png"></a> 
           </li>
-          <li>
-            <h6><a target="_newtab" href="http://babyworld-so.herokuapp.com/"></h6>
-            <img src="img/baby_world_so_screanshot.png"></a> 
-          </li>
-          <li>
-            <h6><a target="_newtab" href="http://mameneses.github.io/alphabet_game/"></h6>
-            <img src="img/animal_alphabet.png"></a> 
-          </li>
         </ul>         
         <span class="nvgt" id="prev"></span>
         <span class="nvgt" id="next"></span>
       </div>
     </div>
     <div class="proj-desc" id="0">
-      <p> Analyzes Twitters streaming data using dynamic graph and 3D globe.</p> <br>
-      <p> Technologies: NodeJS, ExpressJS, Socket.io, MongoDB, ThreeJS, CanvasJS, HTML, CSS</p> 
+      <p> An internal system CRM system for a small business.</p> <br>
+      <p> MY ROLE: Design, Development, Deployment</p> <br>
+      <p> TECH: Rails 4, PostgreSQL, Twitter Bootstrap 3 </p> <br>
+      <p> <a href="https://github.com/mameneses/bw_sos" id="resume" target="_newtab">See the code!</a></p>
     </div>
     <div class="proj-desc" id="1">
-      <p> Helps find Campsites across the United States based on specific criteria.</p> <br>
-      <p> Technologies: Sinatra, ActiveRecord, HTML5, BASS.CSS, Active API </p>
+      <p> ** STILL IN PRODUCTION **</p> 
+      <p> Helps teachers with letter and word assesments.</p><br>
+      <p> MY ROLE: Design, Development, Deployment</p><br>
+      <p> TECH: MEAN STACK, Angular, Node, Express, MongoDB, Chart.js, Twitter Bootstrap 3, HTML5, CSS </p><br>
+      <p> <a href="https://github.com/mameneses/happy_tree" id="resume" target="_newtab">See the code!</a></p>
     </div>
     <div class="proj-desc" id="2">
-      <p> An internal system that manages customers, products and orders for a small business.</p> <br>
-      <p> Technologies: Rails 4, PostgreSQL, Twitter Bootstrap 3 </p>
+      <p> Analyzes Twitters streaming data using dynamic graph and 3D globe.</p> <br>
+      <p> MY ROLE: Front-end Design of layout</p><br>
+      <p> TECH: Node, Express, Socket.io, MongoDB, ThreeJS, CanvasJS, HTML, CSS</p> <br>
+      <p> <a href="https://github.com/rjbernaldo/hivemind" id="resume" target="_newtab">See the code!</a></p>
     </div>
     <div class="proj-desc" id="3">
-      <p> An game ment for toddlers to help learn letters an track areas of improvement.</p> <br>
-      <p> Technologies: Angular.js, Twitter Bootstrap 3, HTML5, CSS, JavaScript </p>
+      <p> Helps find Campsites across the United States based on specific criteria.</p> <br>
+      <p> MY ROLE: Design, Development, Deployment</p><br>
+      <p> TECH: Sinatra, PostgreSQL, ActiveRecord, HTML5, BASS.CSS, Active API </p><br>
+      <p> <a href="https://github.com/mameneses/GetOutSide" id="resume" target="_newtab">See the code!</a>
     </div>
   </section>
 </body>
