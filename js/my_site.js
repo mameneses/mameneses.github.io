@@ -70,7 +70,7 @@ function init(){
   li_items = ul.children;
   imageNumber = li_items.length;
   imageWidth = li_items[0].children[0].clientWidth;
-  ul.style.width = parseInt(imageWidth * imageNumber) + 'px';
+  ul.style.width = '2900px';
   prev = document.getElementById("prev");
   next = document.getElementById("next");
   //.onclike = slide(-1) will be fired when onload;
@@ -107,7 +107,7 @@ function slideTo(imageToGo){
   direction = currentImage > imageToGo ? 1 : -1;
   currentPostion = -1 * currentImage * imageWidth;
   var opts = {
-    duration:1000,
+    duration:500,
     delta:function(p){return p;},
     step:function(delta){
       ul.style.left = parseInt(currentPostion + direction * delta * imageWidth * numOfImageToGo) + 'px';
