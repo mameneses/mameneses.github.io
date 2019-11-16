@@ -102,7 +102,8 @@ nav ul li{
   margin-left: 10%;
 }
 .about-me-item{
-  background: rgba(0,0,0,.6);
+  background: rgba(255,255,255,.8);
+  color:black;
   border-radius: 3px;
   min-height: 300px;
   width: 30%;
@@ -112,7 +113,7 @@ nav ul li{
   transition: all 500ms;
 }
 .about-me-item:hover{
-  background: rgba(0,0,0,.9);
+  background: rgba(255,255,255,1);
 }
 .about-me-item-img{
   width: 80px;
@@ -120,12 +121,12 @@ nav ul li{
   background: white;
   border-radius: 50%;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .about-me-item-img img{
   margin: 15px;
   width: 50px;
-  height: 50px
+  height: 50px;
 }
 .about-me-item-title{
   margin: 10px 0px;
@@ -139,7 +140,7 @@ nav ul li{
   margin: 0px 15px;
   line-height: 20px;
   font-size: 14px;
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto';
   font-weight: 100;
 }
 .profile-image {
@@ -149,7 +150,14 @@ nav ul li{
   width: 80px;
   margin: 15px auto;
 }
-
+.resume-container {
+  margin-left: 15px;
+  float: left;
+}
+.contact-container {
+  margin-right: 15px;
+  float: right;
+}
 .about-desc {
   display: inline;
   color: white;
@@ -159,11 +167,7 @@ nav ul li{
 }
 
 #resume {
-  color: white;
-}
-
-#resume:hover {
-  color: #ededed;
+  color: black;
 }
 
 .contact-icon {
