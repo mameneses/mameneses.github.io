@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica;
+  font-family: 'Lato',helvetica;
   color: white;
 }
 
@@ -53,47 +53,112 @@ nav ul li{
 
 #home {
   background: url(../img/polyscape4.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
   position: relative;
 }
 
 #about {
   background: url(../img/polyscape5.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px;  
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+  height: 1000px;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
+.home-header {
+  font-family: 'Roboto Mono';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 935px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  line-height: 60px;
+  background-color: rgba(35,80,130, 0.8);
+  border-radius: 5px;
+}
 
-.about-title { 
-  height: 458px; 
-  position: absolute; 
+.about-title {
+  position: absolute;
   top: 20px;
-  left:20px; 
-  width: 100%;
+  left:20px;
   font-size: 25px;
   color: white;
 }
 
 .about-container {
-  position: absolute;
-  background: rgba(0,0,0,0.4); 
-  width: 80%;
-  padding:20px;
-  margin-top: 110px;
-  margin-left: 10%;
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.row {
+  padding-top: 110px;
+}
+.about-me-item{
+  background: rgba(255,255,255,.8);
+  color:black;
+  border-radius: 3px;
+  min-height: 300px;
+  width: 30%;
+  margin: .5%;
+  padding: 1%;
+  float: left;
+  transition: all 500ms;
+}
+.about-me-item:hover{
+  background: rgba(255,255,255,1);
+}
+.about-me-item-img{
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+.about-me-item-img img{
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+}
+.about-me-item-title{
+  margin: 10px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
 }
 
-.about-img {
-  display: inline;
+.about-me-item p{
+  text-indent: 20px;
+  margin: 0px 15px;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.profile-image {
+  border-radius: 50%;
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: 15px auto;
+}
+.resume-container {
+  margin-left: 15px;
   float: left;
 }
-
+.contact-container {
+  margin-right: 15px;
+  float: right;
+}
 .about-desc {
   display: inline;
   color: white;
@@ -103,160 +168,119 @@ nav ul li{
 }
 
 #resume {
-  color: white;
-}
-
-#resume:hover {
-  color: #ededed;
+  color: black;
 }
 
 .contact-icon {
-  width:40px;
+  width:30px;
 }
 
 #projects {
   background: url(../img/polyscape6.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
-.project-title { 
-  height: 458px; 
-  position: absolute; 
+.work-title {
+  position: absolute;
   top: 20px;
-  left:20px; 
-  width: 100%;
+  left:20px;
   font-size: 25px;
   color: white;
 }
-
-.ind-project-titile {
+.workspace-outer-container {
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  width: 550px;
+}
+.next-arrow {
   position: absolute;
-  width:50%;
+  width: 50px;
+  height: 50px;
+  top: 300px;
+  background: rgba(255, 255, 255, .9);
+  border-radius: 50%;
+  z-index: 1;
+}
+.next-arrow:hover{
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1);
+}
+.next-arrow img{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.next-arrow.left {
+  left: -20px;
+}
+.next-arrow.right {
+  right: -20px;
+  transform: rotate(180deg);
+}
+.projects-main-container{
+  overflow: hidden;
+  display: block;
+  margin: 0px auto;
+  width: 550px;
+}
+
+.projects-scroll-container {
+  width: 3300px;
+  float: left;
+  display: inline;
+}
+.project-container{
+  float: left;
+  width: 550px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 120px;
+  color: black;
+  border-radius: 3px;
+}
+.project-image{
+  float: left;
+  width: 100%;
+}
+.project-image img{
+  width: 100%;
+}
+.proj-desc {
+  float: left;
+  padding: 20px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  color: black;
+  font-size:20px;
+  line-height: 120%;
+}
+.ind-project-title {
+  float: left;
   height: 45px;
-  max-width: 740px;
-  background: rgba(0,0,0,0.4);
-  margin-top: 85px;
-  margin-left: 25%; 
   text-align: center;
   padding-top: 15px;
+  width: 100%;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
 }
 
-.ind-project-titile :link {
+.ind-project-titile:visited {
   color: white;
   font-size: 25px;
   text-decoration: none;
 }
 
-.ind-project-titile :visited {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.ind-project-titile :hover {
+.ind-project-titile:hover {
   color: #ededed;
   font-size: 25px;
   text-decoration: none;
 }
-
-/*SLIDER CSS BEGIN*/
-
-.container{
-  position: absolute;
-  display: inline;
-  width:50%;
-  max-width: 740px;
-  margin: 0 auto;
-  margin-top: 130px;
-  margin-left: 25%;
-  height: 440px;
-  padding: 20px;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  background: rgba(0,0,0,0.4);  
-}
-.slider_wrapper{
-  overflow: hidden;
-  position:relative;
-  height:480px;
-  top:auto;
-}
-#image_slider{
-  position: relative;
-  height: auto;
-  list-style: none;
-  overflow: hidden;
-  float: left;
-  /*Chrom default padding for ul is 40px */
-  padding:0px;
-  margin:0px;
-  display: inline;
-  width:2900px;
-}
-#image_slider li{
-  position: relative;
-  float: left;
-}
-.nvgt{
-  position:absolute;
-  top: 170px;
-  height: 50px;
-  width: 30px;
-  opacity: 0.6;
-}
-.nvgt:hover{
-  opacity: 0.9;
-}
-#prev{
-  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
-  left: 0px;
-}
-#next{
-  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
-  right: 0px;
-}
-
-.proj-desc {
-  position: absolute;
-  display: inline;
-  width:50%;
-  max-width: 740px;
-  margin-top: 570px;
-  margin-left: 25%;
-  padding: 20px;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  background: rgba(0,0,0,0.4); 
-  color: white;
-  font-size:20px;
-  line-height: 120%;
-}
-
-[id="0"] {
-}
-
-[id= "1"] {
-  display:none;
-}
-
-[id= "2"] {
-  display:none;
-}
-
-[id= "3"] {
-  display:none;
-}
-
-.half {
-  width:50%;
-  display:inline-block;
-}
-/*END OF SLIDER*/
