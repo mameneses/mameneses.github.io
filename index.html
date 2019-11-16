@@ -4,24 +4,8 @@
   <title>Matias Meneses - Portfolio </title>
   <link rel="stylesheet" type="text/css" href="css/reset.css"/>
   <link type="text/css" rel="stylesheet" href="css/animate.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
-  <script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
-  <script src="http://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
-  <script src="bubble-chart/src/bubble-chart.js"></script>
-  <script src="bubble-chart/src/plugins/central-click/central-click.js"></script>
-  <script src="bubble-chart/src/plugins/lines/lines.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="css/my_site.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">  <link rel="stylesheet" type="text/css" href="css/my_site.css"/>
   <script src="js/animatescroll.min.js"></script>
   <script src="js/my_site.js"></script>
 </head>
@@ -30,7 +14,7 @@
     <span id="title">Matias Meneses</span>
     <span>
       <ul>
-        <li id="project-button">Projects</li>
+        <li id="project-button">Work</li>
         <li> | </li>
         <li id="about-button">About Me</li>
         <li> | </li>
@@ -40,111 +24,111 @@
     <span>
   </nav>
   <section id="home" data-type="background" data-speed="10">
-    <div></div>
+    <div class="home-header">
+      Builder • Mentor • Software Engineer
+    </div>
   </section>
 
   <section id="about" data-type="background" data-speed="10">
     <div class="about-title">About Me</div>
     <div class="about-container">
       <div class="row">
-        <div class="col-sm-4">
-          <h4 style="text-align: center;"> Matias Meneses </h4> 
-          <div style="max-height: 350px; overflow: hidden;">
-          <img class="img-responsive"  style="width: 100%;" src="https://muppet-assets.s3.amazonaws.com/team-images/mattias-1446576101146.png">
-          </div>
-          <p> I love to build interesting things and learn new technologies.</p> <br>
+        <div class="about-me-item">
+          <div class="about-me-item-title">Code</div>
+          <div class="about-me-item-img"><img src="./img/code.svg"></div>
+          <p> I have worked as an individual contributor, team lead and manager ensuring readable, tested, abstracted code. Striving for perfection as well as my attention to detail have lead me to build sustainable code bases.</p>
+        </div>
+        <div class="about-me-item">
+          <div class="about-me-item-title">Team</div>
+          <div class="about-me-item-img"><img src="./img/team.svg"></div>
+          <p>Working as a team is vital to the success of a product. By leading with empathy and exercising compromise, I have excelled at working with Product, Design and fellow engineers in delivering exceptional work.</p>
+        </div>
+        <div class="about-me-item">
+          <div class="about-me-item-title">Design</div>
+          <div class="about-me-item-img"><img src="./img/design.svg"></div>
+          <p>Designing scalable code systems is essential to mainting a growing code base. Agreed upon naming conventions and reusable components help with speed and quality of development.</p>
+        </div>
+        <div class="about-me-item">
+          <div class="about-me-item-title">Organization</div>
+          <div class="about-me-item-img"><img src="./img/organization.svg"></div>
+          <p>It all starts with empathy and connecting with peers. From Stand up to running Sprint Retrospectives I have experience bringing people together, iterating on process, and improving workflow.</p>
+        </div>
+        <div class="about-me-item">
+          <div class="about-me-item-title">Growth</div>
+          <div class="about-me-item-img"><img src="./img/growth.svg"></div>
+          <p>I appreciate that Software Engineering is a disipline that involves constant evolving and learning. I find the best mechanisim for deep learning is through sharing knowledge with those around me.</p>
+        </div>
+        <div class="about-me-item">
+          <div class="about-me-item-title"> Matias Meneses </div>
+          <img class="profile-image" src="./img/thumb_matias.jpg">
+          <p> I love to build interesting things and learn new technologies. When im not nose deep reviewing or writing code I am outdoors, hiking, and spending time with friends and family.</p> <br>
           <div>
-            <h4> Check out my <a id="resume" target="_newtab" href="img/Matias_Meneses_Resume.pdf">RESUME</a></h4><br>
-          </div>
-          <div>
-            <h4>Contact Me:</h4><br>
-            <a href="mailto:matiasameneses@gmail.com"><img class="contact-icon"src="img/email_icon.png"></a>
-            <a target="_newtab" href="https://www.facebook.com/matias.meneses.79" ><img class="contact-icon"src="img/facebook_icon.png"></a>
-            <a target="_newtab" href="https://www.linkedin.com/in/matiasmeneses"><img class="contact-icon" src="img/linkedin_icon.png"></a>
-            <a target="_newtab" href="https://twitter.com/MatiasAMeneses"><img class="contact-icon"src="img/twitter_icon.png"></a>
-          </div>
-        </div>
-        <div class="col-xs-8">
-          <div class="bubbleChart"/>
-        </div>
-        <div id="skill-desc">
-          <div class="skil-desc-box">
-            
+            <div>
+              <a id="resume" target="_newtab" href="img/Matias_Meneses_Resume.pdf">RESUME</a>
+            </div>
+            <div>
+              <a href="mailto:matiasameneses@gmail.com"><img class="contact-icon"src="img/email_icon.png"></a>
+              <a target="_newtab" href="https://www.facebook.com/matias.meneses.79" ><img class="contact-icon"src="img/facebook_icon.png"></a>
+              <a target="_newtab" href="https://www.linkedin.com/in/matiasmeneses"><img class="contact-icon" src="img/linkedin_icon.png"></a>
+              <a target="_newtab" href="https://twitter.com/MatiasAMeneses"><img class="contact-icon"src="img/twitter_icon.png"></a>
+            </div>
           </div>
         </div>
-
-        <div class="col-sm-4">
-        </div>
-        
       </div>
     </div>
   </section>
   <section id="projects" data-type="background" data-speed="10">
-    <div class="project-title">Projects</div>
-      <h3 class="ind-project-titile" id="0">
-        <a target="_newtab" href="http://mameneses.github.io/happytree_client/">HappyTree</a>
-      </h3>
-      <h3 class="ind-project-titile" id="1">
-        <a target="_newtab" href="http://babyworld-so.herokuapp.com/">Baby World - Special Orders System</a>
-      </h3>
-      <h3 class="ind-project-titile" id="2">
-        <a target="_newtab" href="http://hivemind-dbc.herokuapp.com/">HiveMind</a>
-      </h3>
-      <h3 class="ind-project-titile" id="3">
-        <a target="_newtab" href="http://go-outside.herokuapp.com/">GoOutSide</a>
-      </h3>
-    <div class="container">
-      <div class="slider_wrapper">
-        <ul id="image_slider">
-
-          <li>
-            <h6><a target="_newtab" href="http://mameneses.github.io/happytree_client/"></h6>
-            <img src="img/happytree.png"></a> 
-          </li>
-
-          <li>
-            <h6><a target="_newtab" href="http://babyworld-so.herokuapp.com/"></h6>
-            <img src="img/baby_world_so_screanshot.png"></a> 
-          </li>
-
-          <li>
-            <h6><a target="_newtab" href="http://hivemind-dbc.herokuapp.com/"></h6>
-            <img src="img/hivemind.png"></a>
-          </li>
-
-          <li>
-            <h6><a target="_newtab" href="http://go-outside.herokuapp.com/"></h6>
-            <img src="img/gooutside.png"></a> 
-          </li>
-          
-        </ul>         
-        <span class="nvgt" id="prev"></span>
-        <span class="nvgt" id="next"></span>
+    <div class="work-title">Work</div>
+    <div class="projects-main-container">
+      <div class="projects-scroll-container">
+        <div class="project-container" id="project0">
+          <a class="ind-project-title" target="_newtab" href="https://www.glidr.io">GLIDR</a>
+          <a class="project-image" target="_newtab" href="https://www.glidr.io">
+            <img src="./img/GLIDR.png">
+          </a>
+          <div class="proj-desc">
+            <p> A new approach to product management software that puts feedback, discovery and validation at the center and product success within reach.</p> <br>
+            <p> Role: Lead code design, grow engineering team, mentor growth in team</p><br>
+            <p> Tech: React, Redux, Go microservice, graphQL </p><br>
+          </div>
+        </div>
+        <div class="project-container" id="project1">
+          <a class="ind-project-title" target="_newtab" href="http://mameneses.github.io/happytree_client/">HappyTree</a>
+          <a class="project-image" target="_newtab" href="http://mameneses.github.io/happytree_client/">
+            <img src="img/happytree.png">
+          </a>
+          <div class="proj-desc">
+            <p> Helps teachers with letter and word assesments.</p><br>
+            <p> Role: Design, Development, Deployment</p><br>
+            <p> Tech: Angular, Node, Express, MongoDB, Chart.js, HTML5, CSS </p><br>
+            <p> <a href="https://github.com/mameneses/happy_tree" id="resume" target="_newtab">See the code!</a></p>
+          </div>
+        </div>
+        <div class="project-container" id="project2">
+          <a class="ind-project-title" target="_newtab" href="http://babyworld-so.herokuapp.com/">Baby World - Special Orders System</a>
+          <a class="project-image" target="_newtab" href="http://babyworld-so.herokuapp.com/">
+            <img src="img/baby_world_so_screanshot.png">
+          </a>
+          <div class="proj-desc">
+            <p> An internal system CRM system for a small business.</p> <br>
+            <p> Role: Design, Development, Deployment</p> <br>
+            <p> Tech: Rails 4, PostgreSQL, Twitter Bootstrap 3 </p> <br>
+            <p> <a href="https://github.com/mameneses/bw_sos" id="resume" target="_newtab">See the code!</a></p>
+          </div>
+        </div>
+        <div class="project-container" id="project3">
+          <a class="ind-project-title" target="_newtab" href="http://go-outside.herokuapp.com/">GoOutSide</a>
+          <a class="project-image" target="_newtab" href="http://go-outside.herokuapp.com/">
+            <img src="img/gooutside.png">
+          </a>
+          <div class="proj-desc">
+            <p> Helps find Campsites across the United States based on specific criteria.</p> <br>
+            <p> Role: Design, Development, Deployment</p><br>
+            <p> Tech: Sinatra, PostgreSQL, ActiveRecord, HTML5, BASS.CSS, Active API </p><br>
+            <p> <a href="https://github.com/mameneses/GetOutSide" id="resume" target="_newtab">See the code!</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="proj-desc" id="0">
-      <p> Helps teachers with letter and word assesments.</p><br>
-      <p> MY ROLE: Design, Development, Deployment</p><br>
-      <p> TECH: MEAN STACK, Angular, Node, Express, MongoDB, Chart.js, Twitter Bootstrap 3, HTML5, CSS </p><br>
-      <p> <a href="https://github.com/mameneses/happy_tree" id="resume" target="_newtab">See the code!</a></p>
-    </div>
-    <div class="proj-desc" id="1">
-      <p> An internal system CRM system for a small business.</p> <br>
-      <p> MY ROLE: Design, Development, Deployment</p> <br>
-      <p> TECH: Rails 4, PostgreSQL, Twitter Bootstrap 3 </p> <br>
-      <p> <a href="https://github.com/mameneses/bw_sos" id="resume" target="_newtab">See the code!</a></p>
-    </div>
-    <div class="proj-desc" id="2">
-      <p> Analyzes Twitters streaming data using dynamic graph and 3D globe.</p> <br>
-      <p> MY ROLE: Front-end Design of layout</p><br>
-      <p> TECH: Node, Express, Socket.io, MongoDB, ThreeJS, CanvasJS, HTML, CSS</p> <br>
-      <p> <a href="https://github.com/rjbernaldo/hivemind" id="resume" target="_newtab">See the code!</a></p>
-    </div>
-    <div class="proj-desc" id="3">
-      <p> Helps find Campsites across the United States based on specific criteria.</p> <br>
-      <p> MY ROLE: Design, Development, Deployment</p><br>
-      <p> TECH: Sinatra, PostgreSQL, ActiveRecord, HTML5, BASS.CSS, Active API </p><br>
-      <p> <a href="https://github.com/mameneses/GetOutSide" id="resume" target="_newtab">See the code!</a>
     </div>
   </section>
 </body>
