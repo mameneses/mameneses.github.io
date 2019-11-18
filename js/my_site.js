@@ -65,13 +65,27 @@ function init(){
   next = document.getElementById("next");
   prev.onclick = function(){ onClickPrev();};
   next.onclick = function(){ onClickNext();};
+  typeOutTitle()
+}
+
+function typeOutTitle(){
+  var elem = $(".home-header div")
+  elem.animate({width:"14%"})
+  setTimeout(()=>{
+    elem.animate({width:"33%"})
+  },1000)
+  setTimeout(()=>{
+    elem.animate({width:"75%"})
+  },2000)
+  setTimeout(()=>{
+    elem.css({"border-right": ".15em solid transparent","animation":"none", "width":"100%"})
+  },3000)
 }
 
 function onClickPrev(){
   var elem = $(".projects-main-container")
   var left = elem.scrollLeft()
   elem.animate({scrollLeft: left - 550},{complete:function(){
-    console.log(left)
     if(left === 550){
       $(this).scrollLeft(2200)
     }
@@ -82,7 +96,6 @@ function onClickNext(){
   var elem = $(".projects-main-container")
   var left = elem.scrollLeft()
   elem.animate({scrollLeft: left + 550},{complete:function(){
-    console.log(left)
     if(left === 2200){
       $(this).scrollLeft(550)
     }
