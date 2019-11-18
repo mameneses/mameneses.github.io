@@ -33,21 +33,22 @@ $(document).ready(function($){
  var iScrollPos = 0
  $(window).scroll(function() {
     var iCurScrollPos = $(this).scrollTop();
-    if (iCurScrollPos <= 940) {
+    let aboutMeTop = $("#about").offset().top
+    let workTop = $("#projects").offset().top
+    if (iCurScrollPos <= aboutMeTop) {
       $("#title").text("Matias Meneses")
-    } else if (iCurScrollPos >= 940 && iCurScrollPos < 1940)
-    {
+    } else if (iCurScrollPos >= aboutMeTop && iCurScrollPos < workTop){
       $("#title").text("About Me")
     } else {
       $("#title").text("Work")
     }
-    if (iCurScrollPos >=1000 ) {
+    if (iCurScrollPos >= aboutMeTop ) {
       $(".about-title").css("display","none")
     } else {
       $(".about-title").css("display","inline")
     }
 
-    if (iCurScrollPos >=2000) {
+    if (iCurScrollPos >= workTop) {
       $(".work-title").css("display","none")
     } else {
       $(".work-title").css("display","inline")

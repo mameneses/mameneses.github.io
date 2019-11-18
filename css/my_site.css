@@ -52,8 +52,10 @@ nav ul li{
 
 
 #home {
-  background: url(../img/polyscape4.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px;
+  background: url(../img/polyscape4.jpg) repeat fixed;
+  background-position:  50% 0px;
+  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
@@ -61,8 +63,23 @@ nav ul li{
 }
 
 #about {
-  background: url(../img/polyscape5.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px;
+  background: url(../img/polyscape5.jpg) repeat fixed;
+  background-position:  50% 0px;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#projects {
+  background: url(../img/polyscape6.jpg) repeat fixed;
+  background-position:  50% 0px;
+  min-height: 100vh;
+  height: 100vh;
+  margin: 0 auto;
   width: 100%;
   max-width: 1920px;
   position: relative;
@@ -114,15 +131,20 @@ nav ul li{
   max-width: 1000px;
   margin: 0 auto;
 }
-.row {
+.about-me-item-container {
   padding-top: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .about-me-item{
   background: rgba(255,255,255,.8);
   color:black;
   border-radius: 3px;
   min-height: 300px;
-  width: 30%;
+  width: 300px;
   margin: .5%;
   padding: 1%;
   float: left;
@@ -190,17 +212,6 @@ nav ul li{
   width:30px;
 }
 
-#projects {
-  background: url(../img/polyscape6.jpg) 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-
 .work-title {
   position: absolute;
   top: 20px;
@@ -208,12 +219,7 @@ nav ul li{
   font-size: 25px;
   color: white;
 }
-.workspace-outer-container {
-  position: relative;
-  display: block;
-  margin: 0px auto;
-  width: 550px;
-}
+
 .next-arrow {
   position: absolute;
   width: 50px;
@@ -239,13 +245,20 @@ nav ul li{
   right: -20px;
   transform: rotate(180deg);
 }
+.workspace-outer-container {
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  max-width: 550px;
+  width: 100%;
+}
 .projects-main-container{
   overflow: hidden;
   display: block;
   margin: 0px auto;
-  width: 550px;
+  max-width: 550px;
+  width: 100%;
 }
-
 .projects-scroll-container {
   width: 3300px;
   float: left;
@@ -253,7 +266,8 @@ nav ul li{
 }
 .project-container{
   float: left;
-  width: 550px;
+  max-width: 550px;
+  width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, 0.7);
   margin-top: 120px;
